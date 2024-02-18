@@ -1,0 +1,112 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+nav{
+    border: 2px solid rgb(219, 219, 219);
+    background-color: rgb(237,235,233);
+    color: rgb(0, 0, 0);
+  
+   
+
+}
+img
+{
+    height: 70px;
+
+    margin: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: absolute;
+}
+
+#bar{
+   
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    
+}
+
+ul :hover{
+    transform: translateY(2px);
+    color:rgb(1,113,67);
+    transition: all 0.5s;
+}
+
+ 
+li{
+   
+    display: inline-block;
+    list-style: none;
+    position: translate;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 40px;
+
+}
+
+
+#search{
+   
+    background-color: rgba(255, 255, 255, 0.47);
+    color: black;
+    border: 2px solid rgb(225, 225, 225);
+   
+    border-radius: 20px;
+    width: 14vw;
+    height: 4vh;
+    float: right;
+   justify-content: end;
+   align-items: end;
+}
+#profile{
+   display: flex;
+    position: relative;
+    margin-left: 100px;
+    height: 32px;
+    width: 32px;
+  
+
+}
+
+#div2{
+    border: 2px solid rgba(255, 255, 255, 0.784);
+    background-color:rgb(30,57,50);
+    color: rgb(0, 0, 0);
+    height: 10vh;
+    position: relative;
+  
+}
+p{
+    font-size: 25px;
+   padding-left: 20px;
+   margin: 20px;
+}
+select{
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(30,57,50);
+    color: white;
+    float: right;
+    height:4vh ;
+    width: 8vw;
+    border-radius: 30px;
+    margin: 23px;
+    margin-right: 19%;
+  
+}
+#div3 video{
+    height: 90vh;
+    width: 100vw;
+    background-color: rgb(29,56,51);
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+}
+
